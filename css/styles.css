@@ -1,0 +1,64 @@
+/*************** 
+ * BASE STYLES *
+ ***************/
+
+/* Fonts */
+@font-face {
+  font-family: "Segoe";
+  src: url(../fonts/segoe-ui-regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Segoe";
+  src: url(../fonts/segoe-ui-bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+/* Variables */
+:root {
+  --background-color: #fafafa;
+  --white: #ffffff;
+  --border-color: 112, 112, 112;
+  --placeholder-color: #837979;
+  --or-text: #8e8e8e;
+  --fb-logo: #385185;
+  --log-in-button: #0095f6;
+  --black: #262626;
+  --footer-links: #1e4f7c;
+  --copyright-gray: #bfbfbf;
+}
+
+/* Overwrite browser defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Segoe";
+  background: var(--background-color);
+}

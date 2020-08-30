@@ -1,0 +1,56 @@
+/**********
+ * TABLET *
+ **********/
+
+/* These styles will be applied to devices that have a minimum width of 876px */
+@media screen and (min-width: 876px) {
+  main {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+
+  .phones-container {
+    display: initial;
+  }
+
+  .log-in-container {
+    order: 1;
+  }
+
+  footer {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .footer-links {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .footer-links li {
+    flex-basis: auto;
+    margin-right: 1rem;
+  }
+
+  .footer-links a {
+    margin-bottom: 0;
+  }
+
+  .copyright {
+    text-align: left;
+  }
+}
+
+/*********** 
+ * DESKTOP *
+ ***********/
+
+@media screen and (min-width: 1527px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

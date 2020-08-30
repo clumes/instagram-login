@@ -253,3 +253,50 @@ body {
 .app-images img:nth-child(1) {
   margin-right: 1rem;
 }
+
+/********** 
+ * PHONES *
+ **********/
+
+.phones-container {
+  display: none;
+}
+
+/********** 
+ * FOOTER *
+ **********/
+
+footer {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem auto 0 auto;
+}
+
+/* Unordered list */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links li {
+  flex-basis: 13%;
+  text-align: center;
+}
+
+.footer-links a {
+  color: var(--footer-links);
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.copyright {
+  text-align: center;
+  color: var(--copyright-gray);
+  font-weight: 700;
+  font-size: 1.2rem;
+}

@@ -62,3 +62,136 @@ body {
   font-family: "Segoe";
   background: var(--background-color);
 }
+
+/********** 
+ * LOG IN *
+ **********/
+
+/* Log in container */
+.log-in {
+  background: var(--white);
+  width: 35rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.1rem solid rgba(var(--border-color), 0.5);
+  padding: 1.5rem 4rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+/* Logo */
+.logo {
+  width: 19rem;
+  margin-bottom: 1rem;
+}
+
+/* Log in form */
+.log-in-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Styles in common for the form fields and the login button*/
+.log-in-form input,
+.log-in-button {
+  padding: 1rem 0 1rem 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Styles in common for the form fields and their placeholders */
+.log-in-form input,
+.log-in-form input::placeholder {
+  font-size: 1.1rem;
+  font-family: "Segoe";
+}
+
+/* Form fields */
+.log-in-form input {
+  background: var(--background-color);
+  border: 0.1rem solid rgba(var(--border-color), 0.5);
+  outline: none;
+}
+
+/* Styles for the username text field */
+.log-in-form input[type="text"] {
+  margin-bottom: 0.5rem;
+}
+
+/* Placeholder for the text fields */
+.log-in-form input::placeholder {
+  color: var(--placeholder-color);
+}
+
+/* Styles for the text fields when they are focused */
+
+.log-in-form input:focus {
+  border-color: rgba(var(--border-color), 0.8);
+}
+
+/* Log in button */
+.log-in-button {
+  background: var(--log-in-button);
+  color: var(--white);
+  margin: 2rem 0;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+/* OR divider */
+.or-divider {
+  color: var(--or-text);
+  font-weight: 700;
+  position: relative;
+  font-size: 1.2rem;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: "";
+  display: block;
+  width: 11rem;
+  height: 0.1rem;
+  position: absolute;
+  background: rgba(var(--border-color), 0.4);
+  top: 50%;
+}
+
+.or-divider::before {
+  left: 3rem;
+}
+
+.or-divider::after {
+  right: 3rem;
+}
+
+/* Log in with Facebook */
+.fb-login {
+  margin: 1.5rem 0;
+}
+
+.fb-login img,
+.fb-login span {
+  vertical-align: middle;
+}
+
+.fb-login img {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.fb-login span {
+  font-size: 1.3rem;
+  color: var(--fb-logo);
+  font-weight: 700;
+}
+
+/* Forgot password? */
+.forgot-password {
+  color: var(--fb-logo);
+  font-size: 1.2rem;
+}

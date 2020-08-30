@@ -195,3 +195,61 @@ body {
   color: var(--fb-logo);
   font-size: 1.2rem;
 }
+
+/********** 
+ * SIGN UP *
+ **********/
+
+/* Sign up container */
+.sign-up {
+  background: var(--white);
+  width: 35rem;
+  margin: 0 auto;
+  border: 0.1rem solid rgba(var(--border-color), 0.5);
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Don't have an account? */
+.sign-up span {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+/* Sign up link */
+.sign-up a {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--log-in-button);
+}
+
+/*************** 
+ * GET THE APP *
+ ***************/
+
+/* Get the app container */
+.get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+/* Get the app text */
+.get-the-app span {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+
+/* App badges */
+.app-images img {
+  width: 13rem;
+}
+
+/* Select the first image */
+.app-images img:nth-child(1) {
+  margin-right: 1rem;
+}
